@@ -1,0 +1,44 @@
+/* Styling for the html document*/
+html {
+    color: bisque;
+}
+
+/*Styling for the body element*/
+body { 
+    /*background Styling */
+    background-image: url('3d08e03cb40252526fee2036a67f07f1.gif');
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-color: darkblue;
+
+    /*Text Styling*/
+    text-align: center;
+}
+
+body img {
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    position: left;
+}
+
+/*table or menu styling*/
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
