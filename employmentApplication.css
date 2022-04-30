@@ -1,10 +1,34 @@
 @charset "utf-8";
 
 html {
-    background-image: url(https://img.lovepik.com/background/20211028/medium/lovepik-purple-small-fresh-talent-recruitment-background-image_605610965.jpg);
+    background-color: darkslateblue;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    color:pink;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+
+li a:hover {
+    color:aquamarine;
 }
 
 form {
@@ -16,5 +40,5 @@ form {
 fieldset {
     display: flex;
     flex-direction: column;
-    border: 3px solid cyan;
+    border: 3px solid darkcyan;
 }
