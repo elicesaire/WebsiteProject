@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!--This is the E-Commerce page designed to have user purchases
+        Author: Elijah Cesaire
+        Date: 04/30/2022-->
+
+        <title>E-commerce</title>
+        <link rel = "icon" type = "image/png" href ="bits&bytes_logo.png.webp">
+
+        <link href="e-commerce.css" rel="stylesheet" />
+        <script src="e-commerce.js" async></script>
+
+    </head>
+
+    <body>
+        <div>
+            <nav class="navbar"> 
+                <ul>
+                    <li><a href="mainPage.html" >Main Page</a></li>
+
+                    <li><a href="content.html">Contents</a></li>
+    
+                    <li><a href="employmentApplication.html" class="pages">Employment Application</a></li>
+    
+                    <li><a href="e-commerce.html" class="active">E-commerce</a></li>
+    
+                    <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+    
+                    <li><a href="MyBio.html" >Biography</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Catelog</h1>
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openDevice(event, 'Switch')" id="defaultOpen">Nintendo Switch</button>
+            <button class="tablinks" onclick="openDevice(event, 'DS')">3DS/2DS</button>
+            <button class="tablinks" onclick="openDevice(event, 'Vita')">Playstation Vita/ Portable</button>
+        </div>
+        
+        <!-- Tab content -->
+        <div id="DS" class="tabcontent">
+            <h3>3DS | 2DS</h3>
+            <figure>
+                <img id="base3DS" src="Consoles/41YPA6uIBAL._SX342_.jpg" />
+                <figcaption>Nintendo 3DS base model</figcaption>
+            </figure>
+            
+            <figure>
+                <img id="3DSXL" src="Consoles/51FMjaFKYNL._SX342_.jpg" />
+                <figcaption>Nintendo 3DS XL model</figcaption>
+            </figure>
+
+            <figure>
+                <img id="New 3DSXL" src="Consoles/321abacd-30a8-4faf-aad1-b76d09169d87_1.88c94e710580899f54364c322f76164c.jpeg" />
+                <figcaption>New Nintendo 3DS XL</figcaption>
+            </figure>
+
+            <p>The 3DS and 2DS are one of Nintendo's handheld powerhouses providing many different styles of play.</p>
+            <a href="https://www.amazon.com/stores/page/BE0EB5D0-0AD6-4564-8BC5-4A129A3A9CFD/search?ref_=ast_bln&terms=3ds">Order Now</a>
+        </div>
+        
+        <div id="Switch" class="tabcontent">
+            <h3>Nintendo Switch</h3>
+
+            <figure>
+                <img src="Consoles/NintendoSwitchOLEDmodel_02.jpg" />
+                <figcaption>Switch OLED model</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Consoles/nintendoswitch-blogroll-1610734332405-1622091316446-1622642751613-1623263615734-1625573547535-1628887745843.jpg" />
+                <figcaption>Switch base model</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Consoles/the-switch-lite-in-blue-or-purple.webp" />
+                <figcaption>Switch Lite</figcaption>
+            </figure>
+            <p>The Nintendo Switch is the newest console generation that nintendo has to offer with three different types of consoles within the lineup.</p> 
+            <a href="https://www.amazon.com/stores/page/343A1CDB-3C07-4378-AD1D-FE379B6CDF61?ingress=2&visitId=86a6ac4f-9470-45eb-845c-0a19535f08e8&ref_=ast_bln">Order Now</a>
+        </div>
+        
+        <div id="Vita" class="tabcontent">
+            <h3>PlayStation Vita/ Portable</h3>
+
+            <figure>
+                <img src="consoles/71kOcbOeLNL._AC_SL1500_.jpg" />
+                <figcaption>PlayStation Vita</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Consoles/s-l500.jpg" />
+                <figcaption>PlayStation Vita Slim model</figcaption>
+            </figure>
+
+            <figure>
+                <img src="Consoles/Psp-1000.jpg" />
+                <figcaption>PlayStation Portable</figcaption>
+            </figure>
+            <p>Hopping onto the Sony side of things, these are Playstations handheld options that give fans the love and joy playstation has to offer on the go.</p>
+            <a href="https://www.amazon.com/stores/page/AEA5D08A-7FC6-45D4-B121-C8A6FA25219F/search?ingress=2&visitId=1ecdab4c-50c2-4a28-ab1f-3657b3973d8b&ref_=ast_bln&terms=psp%20psvita">Order Now</a>
+        </div>
+    </body>
+</html>
